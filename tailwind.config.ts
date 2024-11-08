@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import { lusitana } from './app/ui/fonts';
 
 const config: Config = {
   content: [
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lucitana: 'font-lucitana'
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
